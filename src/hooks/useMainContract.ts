@@ -27,6 +27,7 @@ export function useMainContract() {
     const contract = new MainContract(
       Address.parse("kQA4whAbJcgQxl-FfrXQa4RanSRlZ9vdASNdmdLbbhDbs8Jf"), // replace with your contract address from tutorial 2 step 8
     );
+    debugger;
     return client.open(contract) as OpenedContract<MainContract>;
   }, [client]);
 
