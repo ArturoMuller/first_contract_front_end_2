@@ -50,6 +50,7 @@ function App() {
         </a>
 
         <br/>
+        <br/>
 
         {connected && <a onClick={() => sendIncrement()}>Increment by 5</a>}
         <br/>
