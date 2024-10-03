@@ -50,4 +50,4 @@ jobs:
         id: deployment
         uses: actions/deploy-pages@v4
         with:
-          artifact-name: production-files
+          artifact_name: production-files
