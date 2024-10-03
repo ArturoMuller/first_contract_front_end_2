@@ -15,9 +15,9 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Setup Node
-        uses: actions/setup-node@v1
+        uses: actions/setup-node@v3 # Updated to use v3 for better compatibility
         with:
-          node-version: 16
+          node-version: 22
 
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
