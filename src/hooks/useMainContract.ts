@@ -30,6 +30,7 @@ export function useMainContract() {
     return client.open(contract) as OpenedContract<MainContract>;
   }, [client]);
 
+
   useEffect(() => {
     async function getValue() {
       if (!mainContract) return;
